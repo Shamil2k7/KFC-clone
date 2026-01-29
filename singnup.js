@@ -37,5 +37,8 @@ function send() {
     // success
     phoneInput.style.border = "2px solid green";
     alert("OTP Sent Successfully ✅");
+    warningIcon.style.display = "none";
+  inputWraper.style.border = "transparent";
 }
+
 
